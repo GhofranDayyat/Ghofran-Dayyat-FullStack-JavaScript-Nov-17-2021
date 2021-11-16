@@ -21,7 +21,7 @@
         FROM Products INNER JOIN ProductsPrice ON Products.ProductID = ProductsPrice.ProductID 
 
         WHERE ProductsPrice.ProductPrice < 5
-
+---
 ## QUESTION 2 – LOGIC
 
 1.  Takes an array as parameter and prints out all products starting with any of these 
@@ -68,7 +68,7 @@ characters
 **Run ===> ``printWord(['Apple', 'Banana', 'Cucumber', 'Watermelon', 'Ice-cream', 'Orange', 'Eggplant', 'Egg']) ``**
 
 
-
+---
 ## QUESTION 3 – HTML & CSS
 [Deploy to GitHub](https://ghofrandayyat.github.io/Ghofran-Dayyat-FullStack-JavaScript-Nov-17-2021/)
 
