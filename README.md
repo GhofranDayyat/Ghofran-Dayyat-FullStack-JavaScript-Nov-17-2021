@@ -43,7 +43,7 @@ letters (A,E,I,O,U)
         })
 
 
-### Run ===> ``printWord(['Apple', 'Banana', 'Cucumber', 'Watermelon', 'Ice-cream', 'Orange', 'Eggplant', 'Egg']) ``
+**Run ===> ``printWord(['Apple', 'Banana', 'Cucumber', 'Watermelon', 'Ice-cream', 'Orange', 'Eggplant', 'Egg']) ``**
 
 
 2.  Takes an array as parameter and prints out all products with names longer than 5 
@@ -64,7 +64,10 @@ characters
         })
 
 
-### Run ===> ``printWord(['Apple', 'Banana', 'Cucumber', 'Watermelon', 'Ice-cream', 'Orange', 'Eggplant', 'Egg']) ``
+**Run ===> ``printWord(['Apple', 'Banana', 'Cucumber', 'Watermelon', 'Ice-cream', 'Orange', 'Eggplant', 'Egg']) ``**
+
 
 
 ## QUESTION 3 – HTML & CSS
+
+
