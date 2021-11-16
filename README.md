@@ -15,6 +15,7 @@
 
 
 3.  Count number of products with price less than 5  
+
         SELECT COUNT(*) 
 
         FROM Products INNER JOIN ProductsPrice ON Products.ProductID = ProductsPrice.ProductID 
