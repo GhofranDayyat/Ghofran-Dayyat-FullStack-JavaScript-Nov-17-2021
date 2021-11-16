@@ -1,20 +1,25 @@
 # Ghofran-Dayyat-FullStack-JavaScript-Nov-17-2021
 
 ## QUESTION 1 – SQL
-1.  `` SELECT COUNT(productName) FROM Products ``
+1. Count number of products
 
-2. ``  SELECT Products.ProductName , ProductsPrice.ProductPrice ``
+        SELECT COUNT(productName) FROM Products 
 
-    ``FROM Products INNER JOIN ProductsPrice ON Products.ProductID = ProductsPrice.ProductID ``
+2. Get least expensive product name and price
 
-    ``WHERE ProductsPrice.ProductPrice = (SELECT min(ProductPrice) FROM ProductsPrice)``
+        SELECT Products.ProductName , ProductsPrice.ProductPrice 
+
+        FROM Products INNER JOIN ProductsPrice ON Products.ProductID = ProductsPrice.ProductID 
+
+        WHERE ProductsPrice.ProductPrice = (SELECT min(ProductPrice) FROM ProductsPrice)
 
 
-3.  ``  SELECT COUNT(*) ``
+3.  Count number of products with price less than 5  
+        SELECT COUNT(*) 
 
-    ``FROM Products INNER JOIN ProductsPrice ON Products.ProductID = ProductsPrice.ProductID ``
+        FROM Products INNER JOIN ProductsPrice ON Products.ProductID = ProductsPrice.ProductID 
 
-    ``WHERE ProductsPrice.ProductPrice < 5``
+        WHERE ProductsPrice.ProductPrice < 5
 
 ## QUESTION 2 – LOGIC
 
