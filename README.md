@@ -3,7 +3,7 @@
 ## QUESTION 1 – SQL
 1. Count number of products
 
-        SELECT COUNT(productName) FROM Products 
+        SELECT COUNT(*) FROM Products 
 
 2. Get least expensive product name and price
 
