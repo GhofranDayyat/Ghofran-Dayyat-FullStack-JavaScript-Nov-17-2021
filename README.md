@@ -72,7 +72,7 @@ characters
 
 ---
 ## QUESTION 3 – HTML & CSS
-### [Deploy to GitHub](https://ghofrandayyat.github.io/Ghofran-Dayyat-FullStack-JavaScript-Nov-17-2021/)
+### Output [Deploy to GitHub](https://ghofrandayyat.github.io/Ghofran-Dayyat-FullStack-JavaScript-Nov-17-2021/)
 
 ![task Image](./image/q3.png)
 
